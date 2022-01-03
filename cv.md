@@ -1,13 +1,13 @@
 ## Filippova Darya
 
-![My photo]()
+![My photo](https://raw.githubusercontent.com/darfilp/rsschool-cv/gh-pages/322ee.jpg)
 
 ### Contacts
 
 #### Social network
 
-- [Vkontakte]()
-- [Instagram]()
+- [Vkontakte](https://vk.com/id_darfil)
+- [Instagram](https://www.instagram.com/darfilp/)
 
 #### Phone
 
