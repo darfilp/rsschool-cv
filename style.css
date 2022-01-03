@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+.header {
+    padding-top: 20px;
+    height: 100vh;
+    color:black;
+    position: relative;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mylogo {
+    width: 120px;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.link__item {
+    font-size: 17px;
+    font-weight: 500;
+    margin-left: 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 1px;
+}
+
+.link__item:hover {
+    border-bottom: 3px solid black;
+}
+
+.header__text {
+    margin-top: 275px;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 75px;
+    line-height: 16px;
+    letter-spacing: 2px;
+}
+
+.header__desc {
+    font-size: 17px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    margin-top: 50px;
+
+}
+
+.header__text a{
+    margin-top: 10px;
+    display: inline-block;
+    border-radius: 7%;
+    border: 2px solid black;
+    padding: 10px 30px;
+    color: black;
+    text-decoration: none;
+}
+
+.header__text a:hover {
+    background-color: #C71585;
+    border: 1px solid black;
+    color: white
+}
+
+.header__contact {
+    margin-right: 30px;
+}
+
+.photo {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    height: 100vh;
+}
+
+main {
+    padding-top: 100px;
+}
+
+.main {
+    display: flex;
+}
+
+.main__text {
+    margin: auto 0;
+    width: 60%;
+    font-size: 27px;
+    font-style: italic;
+}
+
+.skill {
+    list-style: none;
+    margin-left: 30px;
+}
+
+.skill__item {
+    font-weight: 700;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+.skill__line,
+.skill__line2,
+.skill__line3 {
+    display: block;
+    width: 500px;
+    height: 6px;
+    background-color: #e1e1e1;
+    margin-bottom: 30px;
+}
+
+.skill__line::after {
+    content: '';
+    display: block;
+    width: 400px;
+    height: 6px;
+    background-color: #071117;
+}
+
+.skill__line2::after {
+    content: '';
+    display: block;
+    width: 290px;
+    height: 6px;
+    background-color: #071117;
+}
+
+.skill__line3::after {
+    content: '';
+    display: block;
+    width: 150px;
+    height: 6px;
+    background-color: #071117;
+}
+
+.educ {
+    padding-top: 100px;
+}
+
+.title {
+    font-size: 34px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.educ__info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.educ__tvsu {
+    font-size: 21px;
+    
+}
+
+.educ__text {
+    font-size: 17px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.educ__photo {
+    width: 340px;
+}
+
+.code {
+    font-size: 17px;
+}
+
+.code__example {
+    display: block;
+    padding: 10px;
+    background-color: #e1e1e1;
+    font-size: 10px;
+    margin-bottom: 30px;
+}
+
+.projects {
+    padding-bottom: 40px;
+}
+
+.projects__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pr1 {
+    width: 355px;
+}
+
+.pr2 {
+    width: 355px;
+}
+
+.pr3 {
+    width: 355px;
+}
+
+.pr__img {
+    width: 355px;
+}
+
+.pr__btn {
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    width: 50%;
+    padding: 10px 30px;
+    margin-left: 80px;
+    text-transform: uppercase;
+    border-radius: 7%;
+    border: 2px solid black;
+    background-color: transparent;
+}
+
+.pr__btn:hover {
+    background-color: #C71585;
+    border: 2px solid black;
+    color: white
+}
+
+.contacts {
+    padding-bottom: 40px;
+}
+
+.contacts__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer {
+    background-color: #e1e1e1;
+}
+
+.footer__wrapper {
+    padding: 40px 0;
+    max-width: 1120px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__img {
+    width: 140px;
+}
+
+.footer__year {
+    display: inline-block;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
