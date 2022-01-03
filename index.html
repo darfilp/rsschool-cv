@@ -11,14 +11,14 @@
     <title>CV</title>
 </head>
 <body>
-    <header class="header">
+    <header class="header container">
         <nav class="nav">
             <img src="img/logo.png" alt="" class="mylogo">
             <ul class="navlink">
                 <li class="nav__item"><a href="#" class="link__item">Main</a></li>
-                <li class="nav__item"><a href="#" class="link__item">About me</a></li>
-                <li class="nav__item"><a href="#" class="link__item">Education</a></li>
-                <li class="nav__item"><a href="#" class="link__item">Contact</a></li>
+                <li class="nav__item"><a href="#aboutme" class="link__item">About me</a></li>
+                <li class="nav__item"><a href="#education" class="link__item">Education</a></li>
+                <li class="nav__item"><a href="#contacts" class="link__item">Contact</a></li>
             </ul>
         </nav>
         <div class="header__text">
@@ -29,20 +29,97 @@
         </div>
         <img src="img/photo.jpg" alt="" class="photo">
     </header>
-    <main class="main">
-        <p class="main__text">
+    <main id="aboutme" class="container">
+        <h2 class="title">About me</h2>
+        <div class="main">
+            <p class="main__text">
             I recently started studying development. My goal this year is to get a position in the Epam company. My strong point is hard work, networking, and I am also a team player.
-        </p>
+            </p>
         <div class="main__skill">
             <ul class="skill">
                 <li class="skill__item">HTML</li>
+                <span class="skill__line"></span>
                 <li class="skill__item">CSS</li>
+                <span class="skill__line2"></span>
                 <li class="skill__item">JavaScript</li>
+                <span class="skill__line2"></span>
                 <li class="skill__item">C++</li>
+                <span class="skill__line3"></span>
                 <li class="skill__item">MySQL</li>
+                <span class="skill__line2"></span>
                 <li class="skill__item">Figma</li>
+                <span class="skill__line"></span>
             </ul>
         </div>
+        </div>
     </main>
+    <section id="education" class="educ container">
+    <h2 class="title">MY EDUCATION</h2>
+        <div class="educ__info">
+            <div class="educ__tvsu">
+                <h3>TvSU</h3>
+                <p class="educ__text">I am studying at the University of TvSU at the Faculty of Mathematics.</p>
+                <span class="code">I learned how to write simple code</span>  <br>
+                <code class="code__example">
+                     it("test", () => {
+                        var str = "How can mirrors be real if our eyes aren't real"; <br>
+                        Test.assertEquals(str.toJadenCase(),  <br>"How Can Mirrors Be Real If Our Eyes Aren't Real");
+                        });
+                        });
+                </code>
+                <h3>My English level is A2+.</h3>
+            </div>
+            <img src="img/tvsu.png" alt="" class="educ__photo">
+        </div>
+    </section>
+    <section class="projects container">
+        <h2 class="title">MY projects</h2>
+        <div class="projects__wrapper">
+            <div class="pr1">
+                <img src="img/pr1.JPG" alt="" class="pr__img">
+                <button class="pr__btn"> <a href="https://darfilp.github.io/BestTourPlan/">Watch</a></button>
+            </div>
+            <div class="pr2">
+                <div class="pr1">
+                <img src="img/pr2.JPG" alt="" class="pr__img">
+                <button class="pr__btn"> <a href="https://darfilp.github.io/Travel-Agency-Safari/">Watch</a></button>
+            </div>
+            </div>
+            <div class="pr3">
+                <div class="pr1">
+                <img src="img/pr3.JPG" alt="" class="pr__img">
+                <button class="pr__btn"> <a href="https://darfilp.github.io/Cinema-Booking-Website/">Watch</a></button>
+            </div>
+            </div>
+        </div>
+    </section>
+    <section id="contacts" class="contacts container">
+        <h2 class="title">My Contacts</h2>
+        <div class="contacts__wrapper">
+            <div class="contacts__networks">
+                <p class="contacts__title"><h3>Social network</h3></p>
+                <ul>
+                    <li> <a href="https://vk.com/darfilp">Vkontakte</a> </li>
+                    <li> <a href="https://www.instagram.com/darfilp/">Instagram</a></li>
+                </ul>
+            </div>
+            <div class="contacts__phone">
+                <p class="contacts__title"><h3>Phone</h3></p>
+                <span> <a href="tel:79108473176">79108473176</a></span>
+            </div>
+            <div class="contacts__email">
+                <p class="contacts__title"><h3>Email</h3></p>
+                <span><a href="tomail:wwdarcool@yandex.ru">wwdarcool@yandex.ru</a></span>
+            </div>
+            
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__wrapper">
+            <a href="https://rs.school/js/"><img src="img/rs_school_js.svg" alt="" class="footer__img"></a> 
+            <a href="https://github.com/darfilp">GitHub</a>
+        </div>
+        <span class="footer__year">2022</span>
+    </footer>
 </body>
 </html>
