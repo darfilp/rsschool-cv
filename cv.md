@@ -1,6 +1,6 @@
 ## Filippova Darya
 
-![My photo](https://raw.githubusercontent.com/darfilp/rsschool-cv/gh-pages/322ee.jpg)
+![My photo](https://sun9-81.userapi.com/impg/riSXDOiqdNlE2YnyyyfbnizmxH6ZRAYiJYVkFQ/un-1UI80bc0.jpg?size=1218x1624&quality=96&sign=2a65974b7234432335ee8949bf632364&type=album)
 
 ### Contacts
 
